@@ -13,6 +13,8 @@ body {
     170px 1fr 170px 40px;
 }
 
+/* Header section */
+
 .header {
     background-color: rgba(76, 66, 130, 0.494);
     grid-area: header;
