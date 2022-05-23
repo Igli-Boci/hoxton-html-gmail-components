@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template: 
+    "header header header header" auto
+    "left-menu emails quick-settings shortcuts-icons" 1fr/
+    170px 1fr 170px 40px;
+}
+
+.header {
+    background-color: rgba(76, 66, 130, 0.494);
+    grid-area: header;
+}
+
+.left-menu {
+    background-color: aqua;
+    grid-area: left-menu;
+}
+
+.emails {
+    background-color: blue;
+    grid-area: emails;
+}
+
+.quick-settings {
+    background-color: brown;
+    grid-area: quick-settings;
+}
+
+.shortcuts-icons {
+    background-color: blueviolet;
+    grid-area: shortcuts-icons;
+}
