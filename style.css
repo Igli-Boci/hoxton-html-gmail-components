@@ -18,6 +18,9 @@ body {
 .header {
     background-color: rgba(76, 66, 130, 0.494);
     grid-area: header;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .left-menu {
