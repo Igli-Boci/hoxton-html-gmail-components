@@ -23,6 +23,15 @@ body {
     padding: 0.5rem 1rem;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
+.header button span {
+    font-size: 1.2rem;
+}
+
 
 .header__left-menu {
     display: grid;
@@ -57,6 +66,14 @@ body {
     font-size: 0.9rem;
 }
 
+/* This makes the search bar box not visable but its not always a good option in general
+
+.search-bar:focus {
+    outline: none;
+}
+
+*/
+
 .expand-icon {
     background-color: #f0f3f4;
     display: grid;
@@ -65,6 +82,31 @@ body {
     border-bottom-right-radius: 5px;
     padding: 6px;
     color: rgb(142, 142, 142);
+}
+
+.header__right-menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 2px 5px;
+}
+
+.profile {
+    border: 1px solid rgb(209 209 209);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.profile img {
+    border-radius: 0%;
+}
+
+.profile .container {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0.5rem;
+    place-items: center;
 }
 
 /* Left-menu section */
